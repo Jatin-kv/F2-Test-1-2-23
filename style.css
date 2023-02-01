@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    border: 3px solid ;
+    margin: 10px;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    height: 80px;
+
+}
+.images{
+    max-height: 80px;
+    max-width: 150px;
+    
+}
+img:hover{
+    border: 2px solid blueviolet;
+}
+img{
+    height: 50px;
+    width: 100%;
+    border: 3px solid  ;
+    border-radius: 40px;
+}
+
+body{
+    background-color: rgb(252, 252, 153);
+
+}
+/* --------------subcontent------------------ */
+.subcontent{
+   margin: 10px;
+   padding: 50px;
+   /* display: flex; */
+   justify-content: center;
+   background-color: white;
+   border: 2px solid lightgreen;
+}
+
+/* -----------form------------------ */
+
+label{
+    font-weight: bold;
+    font-size: 1.2rem;
+ 
+}
+input[type="text"], input[type="email"]{
+     min-width: 300px;
+     min-height: 30px;
+     padding-inline: 10px;
+     font-size: 15px;
+     letter-spacing: 2px;
+     border-radius: 20px;
+}
+
+input[type="button"]{
+     min-width: 100px;
+     min-height: 30px;
+     border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+input[type="button"]:hover{
+    background-color: rgb(56, 56, 56);
+   border: 2px solid rgb(255, 85, 0);
+}
+
+/* -------------verification--------------- */
+#userinfo{
+    /* background-color: rgb(44, 42, 42); */
+    color: rgb(213, 10, 10);
+    font-weight: bold;
+}
+
+#message{
+    color: rgb(34, 255, 0);
+    font-weight: bold;
+}
+
+#dice{
+    width:100px;
+    height:100px;
+}
+    
+#dice-container{
+    display: flex;
+    /* justify-content: center; */
+    color: blue;
+}
+
+#couponContainer{display:flex;justify-content: center;
+    font-weight: bold;
+    color: red;
+    font-size:x-large;
+    background-color: lightyellow;
+}
+
+#congratsimg{
+    border: 0;
+    width:30%;
+    height:500px;
+    /* border-radius: 50%; */
+}

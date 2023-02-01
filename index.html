@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F2 test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1
+        style="
+          color: rgb(21, 130, 176);
+          text-align: center;
+          margin: 10px;
+          background-color: whitesmoke;
+          border: 3px solid;
+        "
+      >
+        Gallery
+      </h1>
+      <div class="img">
+        <div class="images">
+          <img src="./images/signup.jpg" alt="sign-up" id="signupbtn">
+        </div>
+        <div class="images">
+          <img src="./images/verify.png" alt="verify" id="verifybtn">
+        </div>
+        <div class="images">
+          <img src="./images/play-now.png" alt="playnow" id="playnowbtn">
+        </div>
+        <div class="images">
+          <img src="./images/result.jpeg" alt="result" id="resultbtn">
+        </div>
+      </div>
+
+      <!-- form -->
+      <div class="subcontent">
+            <form action="#"  id="myform" style="display:none";>
+                <label for="name"> Enter Name:</label><br><br>
+                <input type="text" name="name" id="name" required> <br><br><br>
+                <label for="email"> Enter Email:</label><br><br>
+                <input type="email" name="email" id="email" required><br><br><br>
+                <label for="username">Enter Username:</label><br><br>
+                <input type="text" name="username" id="username" required><br><br><br>
+                <input type="submit" value="Submit" id="submitbtn">
+                <div id="message" style="display:none;">Congratulations! Your form was submitted successfully.</div>
+            </form>
+
+          <div id="userinfo" style="display:none;"></div>
+
+          <div id="dice-container" style="display:none;">
+            <h2>Click on the dice</h2>
+              <img id="dice" src="./images/dice.png">
+              <h4 id="chancesleft"></h4>
+              <h4 id="result"></h4>
+              <h4 id="total"></h4>
+          </div>
+          
+          <div id="couponContainer" style="display:none;">
+            <h2>Coupon - <span id="coupon"></span></h2>
+            
+            <img src="./images/congrats.png" alt="congrats" id="congratsimg">
+          </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
